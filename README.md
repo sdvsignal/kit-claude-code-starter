@@ -3,6 +3,9 @@
 A small, opinionated Claude Code setup you can drop into any repo in about 15 minutes. It's what a
 **Kit Setup Sprint** delivers, tuned to your stack.
 
+**Want it done for your repo?** Fixed-price setup on the [Kit page](https://kit-sdvsignal.pages.dev):
+**Setup Sprint $99** (48h) · **Build Packet $399** (custom MCP or Worker, 5 business days).
+
 - `CLAUDE.md`: project memory. Tells Claude how your repo builds, tests and ships.
 - `.claude/settings.json`: a permission allowlist (fewer prompts, nothing destructive) and two hooks.
 - `.claude/skills/`: three skills. `ship-check` is a pre-merge gate, `new-feature` is plan → build → test, and `explain-diff` gives a plain-English review.
@@ -46,8 +49,15 @@ Keep `.mcp.json` out of git if it ever holds anything private.
 
 ## Need more than this?
 
-The Build tier ships one custom MCP server (≤5 tools) or one Cloudflare Worker (≤3 routes) with tests and a
-README. See the [Kit page](https://kit-sdvsignal.pages.dev).
+| | Setup Sprint | Build Packet |
+|---|---|---|
+| Price | **$99** | **$399** |
+| What | CLAUDE.md + skills + allowlist + hooks + up to 3 MCP servers + runbook, tuned to your repo | One custom MCP server (≤5 tools) **or** one Cloudflare Worker (≤3 routes) with tests + README |
+| Turnaround | 48 hours | 5 business days |
+
+Order / scope: [kit-sdvsignal.pages.dev](https://kit-sdvsignal.pages.dev)
+
+We use AI tools including Claude; a person reviews every deliverable before it ships.
 
 ## License
 
