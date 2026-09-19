@@ -31,7 +31,7 @@ things that bite new contributors in it. Leave the essay out.
 
 ### `.claude/settings.json`
 - **allow**: read-only git, your test/lint commands, and package-manager installs.
-- **deny**: `rm -rf`, force-push, reading `.env*`.
+- **deny**: `rm -rf` (and `-fr`, `-Rf`, `-r`), force-push (`--force` and `-f`), reading `.env*`. Deny rules match command text, so they catch the usual spellings, not every one. A PreToolUse hook is the stronger guard.
 - **hooks**:
   - `PostToolUse` on `Edit|Write` runs the formatter on the file that changed (`.claude/hooks/format.sh`).
   - `Stop` prints a one-line reminder to run `/ship-check` before you commit.

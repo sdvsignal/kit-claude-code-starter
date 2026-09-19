@@ -5,6 +5,7 @@
 - Dev: `npm run dev`
 - Test: `npm test`
 - Lint: `npm run lint`
+- Typecheck: `npm run typecheck` (delete this line and its allow rule if your repo has none)
 
 ## Layout
 - `src/`: app code

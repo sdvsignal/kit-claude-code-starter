@@ -12,19 +12,36 @@
     "deny": [
       "Bash(rm -rf:*)",
       "Bash(git push --force:*)",
-      "Read(./.env*)"
+      "Read(./.env*)",
+      "Bash(rm -fr*)",
+      "Bash(rm -Rf*)",
+      "Bash(rm -r *)",
+      "Bash(git push -f*)",
+      "Bash(git push * -f*)",
+      "Bash(git push * --force*)",
+      "Bash(cat .env*)"
     ]
   },
   "hooks": {
     "PostToolUse": [
       {
         "matcher": "Edit|Write",
-        "hooks": [{ "type": "command", "command": "bash .claude/hooks/format.sh" }]
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash .claude/hooks/format.sh"
+          }
+        ]
       }
     ],
     "Stop": [
       {
-        "hooks": [{ "type": "command", "command": "echo 'Reminder: run /ship-check before you commit.'" }]
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo 'Reminder: run /ship-check before you commit.'"
+          }
+        ]
       }
     ]
   }
