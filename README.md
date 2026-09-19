@@ -47,7 +47,7 @@ Keep `.mcp.json` out of git if it ever holds anything private.
 ## Need more than this?
 
 The Build tier ships one custom MCP server (≤5 tools) or one Cloudflare Worker (≤3 routes) with tests and a
-README. See the Kit page.
+README. See the [Kit page](https://kit-sdvsignal.pages.dev).
 
 ## License
 
