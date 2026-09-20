@@ -1,30 +1,37 @@
 # kit-claude-code-starter
 
-A small, opinionated Claude Code setup you can drop into any repo in about 15 minutes. It's what a
-**Kit Setup Sprint** delivers, tuned to your stack.
+**Claude Code works out of the box, then spends your first week asking permission for `npm test` and
+forgetting how your repo builds.** This fixes both. Four plain-text files you copy into any repo:
+project memory, a permission allowlist, three skills, and an MCP example.
+
+No secrets, no telemetry, no dependencies. Read the whole thing in five minutes.
 
 If you went looking for a Claude Code setup, a CLAUDE.md example, a `.claude/settings.json` permission
-allowlist or an `mcp.json` example, that is what is in here. Four files, plain text, copy what fits.
+allowlist or an `mcp.json` example — that is what is in here. Copy what fits, ignore the rest.
 
-**Want it done for your repo?** Fixed-price setup on the [Kit page](https://kit.sdvsignal.com/?utm_source=github&utm_medium=organic&utm_campaign=afm-find&utm_content=kit-claude-code-starter):
-**Setup Lite $29** (this setup, tuned to your repo, handed back as a PR in 24h) · **Setup Sprint $99** (48h) · **MCP Basic $199** (one custom MCP tool) · **Build Packet $399** (custom MCP server or Worker, 5 business days).
+## 60-second start
 
-- `CLAUDE.md`: project memory. Tells Claude how your repo builds, tests and ships.
-- `.claude/settings.json`: a permission allowlist (fewer prompts, nothing destructive) and two hooks.
-- `.claude/skills/`: three skills. `ship-check` is a pre-merge gate, `new-feature` is plan → build → test, and `explain-diff` gives a plain-English review.
-- `.mcp.json.example`: how to wire an MCP server, with no secrets in the repo.
+```bash
+git clone https://github.com/sdvsignal/kit-claude-code-starter
+cp -r kit-claude-code-starter/{CLAUDE.md,.claude,.mcp.json.example} your-repo/
+cd your-repo && claude
+```
 
-No secrets and no telemetry live here. Everything is plain text you can read in five minutes.
+Then type `/ship-check`. It will run your tests and lint and report PASS/FAIL — or tell you exactly
+which command it could not find, which is your cue for the next step.
 
-## 15-minute setup
+## The 15 minutes that make it yours
+
+The copy above works immediately. These four edits are what turn it from a template into *your*
+setup, and step 3 is the one that actually matters.
 
 | Min | Step |
 |---|---|
 | 0–2 | Install Claude Code (`npm install -g @anthropic-ai/claude-code`) and run `claude` once in your repo to sign in. |
 | 2–5 | Copy `CLAUDE.md`, `.claude/` and `.mcp.json.example` into your repo root. |
-| 5–10 | Edit `CLAUDE.md`: fill in the four commands (install / dev / test / lint) and the "never do" list. This is the step that matters. |
+| 5–10 | **Edit `CLAUDE.md`**: fill in the four commands (install / dev / test / lint) and the "never do" list. This is the step that matters. |
 | 10–12 | Edit `.claude/settings.json` → `permissions.allow` so it matches your real test and lint commands. |
-| 12–15 | Run `claude`, then type `/ship-check`. It should run your tests and lint and report PASS/FAIL. |
+| 12–15 | Run `claude`, then `/ship-check`. It should run your tests and lint and report PASS/FAIL. |
 
 ## What's in each file
 
@@ -50,7 +57,13 @@ things that bite new contributors in it. Leave the essay out.
 Copy `.mcp.json.example` to `.mcp.json` and set the env var it names in your shell (not in the file).
 Keep `.mcp.json` out of git if it ever holds anything private.
 
-## Need more than this?
+## Free here vs. paid
+
+**Everything above is MIT and complete.** Nothing is held back, and there is no paid tier of this repo.
+
+What you are buying, if you ever buy, is the 15 minutes plus the judgement calls — which commands
+belong in the allowlist, what goes in the "never do" list, which of your services deserve an MCP
+server. That is a **Kit Setup Sprint**, and it comes back as a PR you review.
 
 | | Setup Lite | Setup Sprint | MCP Basic | Build Packet |
 |---|---|---|---|---|
@@ -58,12 +71,18 @@ Keep `.mcp.json` out of git if it ever holds anything private.
 | What | A CLAUDE.md, a tool allowlist and one skill, set up for your repo | CLAUDE.md + skills + allowlist + hooks + up to 3 MCP servers + runbook, tuned to your repo | One MCP tool + schema + smoke prompt + enable/disable notes | One custom MCP server (≤5 tools) **or** one Cloudflare Worker (≤3 routes) with tests + README |
 | Turnaround | 24 hours, as a PR you review | 48 hours | a few days | 5 business days |
 
-Order / scope: [kit.sdvsignal.com](https://kit.sdvsignal.com/?utm_source=github&utm_medium=organic&utm_campaign=afm-find&utm_content=kit-claude-code-starter)
-
 Shipping an iOS app too? **Preview Pack $149** is one App Store preview video built to Apple's spec from your
 screen recordings, plus 5 stills and 2 revision rounds, in 72 hours. Same page.
 
+**→ Scope and order: [kit.sdvsignal.com](https://kit.sdvsignal.com/?utm_source=github&utm_medium=organic&utm_campaign=afm-find&utm_content=kit-claude-code-starter)**
+
 We use AI tools including Claude; a person reviews every deliverable before it ships.
+Independent project, not affiliated with Anthropic.
+
+## Related
+
+- [kit-plugins](https://github.com/sdvsignal/kit-plugins) — the same skills as installable Claude Code plugins
+- [kit-one-tool-mcp](https://github.com/sdvsignal/kit-one-tool-mcp) — a working one-tool MCP server sample
 
 ## License
 
