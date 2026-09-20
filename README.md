@@ -3,6 +3,9 @@
 A small, opinionated Claude Code setup you can drop into any repo in about 15 minutes. It's what a
 **Kit Setup Sprint** delivers, tuned to your stack.
 
+If you went looking for a Claude Code setup, a CLAUDE.md example, a `.claude/settings.json` permission
+allowlist or an `mcp.json` example, that is what is in here. Four files, plain text, copy what fits.
+
 **Want it done for your repo?** Fixed-price setup on the [Kit page](https://kit-sdvsignal.pages.dev):
 **Setup Lite $29** (this setup, tuned to your repo, handed back as a PR in 24h) · **Setup Sprint $99** (48h) · **MCP Basic $199** (one custom MCP tool) · **Build Packet $399** (custom MCP server or Worker, 5 business days).
 
@@ -56,6 +59,9 @@ Keep `.mcp.json` out of git if it ever holds anything private.
 | Turnaround | 24 hours, as a PR you review | 48 hours | a few days | 5 business days |
 
 Order / scope: [kit-sdvsignal.pages.dev](https://kit-sdvsignal.pages.dev)
+
+Shipping an iOS app too? **Preview Pack $149** is one App Store preview video built to Apple's spec from your
+screen recordings, plus 5 stills and 2 revision rounds, in 72 hours. Same page.
 
 We use AI tools including Claude; a person reviews every deliverable before it ships.
 
