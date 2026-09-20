@@ -6,7 +6,7 @@ A small, opinionated Claude Code setup you can drop into any repo in about 15 mi
 If you went looking for a Claude Code setup, a CLAUDE.md example, a `.claude/settings.json` permission
 allowlist or an `mcp.json` example, that is what is in here. Four files, plain text, copy what fits.
 
-**Want it done for your repo?** Fixed-price setup on the [Kit page](https://kit-sdvsignal.pages.dev):
+**Want it done for your repo?** Fixed-price setup on the [Kit page](https://kit.sdvsignal.com/?utm_source=github&utm_medium=organic&utm_campaign=afm-find&utm_content=kit-claude-code-starter):
 **Setup Lite $29** (this setup, tuned to your repo, handed back as a PR in 24h) · **Setup Sprint $99** (48h) · **MCP Basic $199** (one custom MCP tool) · **Build Packet $399** (custom MCP server or Worker, 5 business days).
 
 - `CLAUDE.md`: project memory. Tells Claude how your repo builds, tests and ships.
@@ -58,7 +58,7 @@ Keep `.mcp.json` out of git if it ever holds anything private.
 | What | A CLAUDE.md, a tool allowlist and one skill, set up for your repo | CLAUDE.md + skills + allowlist + hooks + up to 3 MCP servers + runbook, tuned to your repo | One MCP tool + schema + smoke prompt + enable/disable notes | One custom MCP server (≤5 tools) **or** one Cloudflare Worker (≤3 routes) with tests + README |
 | Turnaround | 24 hours, as a PR you review | 48 hours | a few days | 5 business days |
 
-Order / scope: [kit-sdvsignal.pages.dev](https://kit-sdvsignal.pages.dev)
+Order / scope: [kit.sdvsignal.com](https://kit.sdvsignal.com/?utm_source=github&utm_medium=organic&utm_campaign=afm-find&utm_content=kit-claude-code-starter)
 
 Shipping an iOS app too? **Preview Pack $149** is one App Store preview video built to Apple's spec from your
 screen recordings, plus 5 stills and 2 revision rounds, in 72 hours. Same page.
