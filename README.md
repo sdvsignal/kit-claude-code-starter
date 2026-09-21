@@ -9,6 +9,12 @@ No secrets, no telemetry, no dependencies. Read the whole thing in five minutes.
 If you went looking for a Claude Code setup, a CLAUDE.md example, a `.claude/settings.json` permission
 allowlist or an `mcp.json` example — that is what is in here. Copy what fits, ignore the rest.
 
+## Want this done for you?
+
+**[Buy Setup Lite — $29](https://buy.stripe.com/3cI14pcsf6DA8Xw4B3f3a0a)** · one repo, CLAUDE.md + allowlist + one skill, back as a PR in ~24h.
+
+Details: [kit.sdvsignal.com/#setup-lite](https://kit.sdvsignal.com/#setup-lite)
+
 ## 60-second start
 
 ```bash
