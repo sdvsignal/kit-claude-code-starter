@@ -74,7 +74,7 @@ server. That is a **Kit Setup Sprint**, and it comes back as a PR you review.
 Shipping an iOS app too? **Preview Pack $149** is one App Store preview video built to Apple's spec from your
 screen recordings, plus 5 stills and 2 revision rounds, in 72 hours. Same page.
 
-**→ Scope and order: [kit.sdvsignal.com](https://kit.sdvsignal.com/?utm_source=github&utm_medium=organic&utm_campaign=afm-find&utm_content=kit-claude-code-starter)**
+**→ Scope and order: [kit.sdvsignal.com](https://kit.sdvsignal.com/?utm_source=github&utm_medium=organic&utm_campaign=afm-find&utm_content=gh-readme-kit-claude-code-starter)**
 
 We use AI tools including Claude; a person reviews every deliverable before it ships.
 Independent project, not affiliated with Anthropic.
