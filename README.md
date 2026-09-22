@@ -83,11 +83,13 @@ this kind* rather than a service with a turnaround, that is the
 Six of those eight hooks **block** rather than warn: a write containing a live credential, a commit
 straight onto `main`, `rm -rf` at a root or a bare wildcard, `git clean -fd`, reading a `.env` into
 the transcript, and the flags that make a test run report success whatever happens. It ships with
-78 offline tests you can run before trusting any of it.
+134 offline tests you can run before trusting any of it — 95 over the hooks, and 39 that
+prove every skill's frontmatter parses, because a skill that does not parse never loads and
+says nothing about it.
 
 Two of its files are [published in full before you pay](https://kit.sdvsignal.com/samples/skills-hooks?utm_source=github&utm_medium=readme&utm_campaign=skills-hooks&utm_content=kit-claude-code-starter),
 along with the complete file list and a replay of the hooks refusing real mistakes. Read those two
-and if they are not worth $29 to you, the other 23 will not be either.
+and if they are not worth $29 to you, the other 24 will not be either.
 
 | | Setup Lite | Setup Sprint | MCP Basic | Build Packet |
 |---|---|---|---|---|
