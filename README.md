@@ -15,7 +15,7 @@ allowlist or an `mcp.json` example — that is what is in here. Copy what fits, 
 
 **[Buy Setup Lite — $29](https://buy.stripe.com/3cI14pcsf6DA8Xw4B3f3a0a?client_reference_id=from-gh-starter)** · one repo, CLAUDE.md + allowlist + one skill, back as a PR in ~24h.
 
-Details: [kit.sdvsignal.com/#setup-lite](https://kit.sdvsignal.com/#setup-lite)
+Details: [kit.sdvsignal.com/#setup-lite](https://kit.sdvsignal.com/?utm_source=github&utm_medium=readme&utm_campaign=setup-lite&utm_content=kit-claude-code-starter#setup-lite)
 
 ## 60-second start
 
@@ -85,15 +85,17 @@ straight onto `main`, `rm -rf` at a root or a bare wildcard, `git clean -fd`, re
 the transcript, and the flags that make a test run report success whatever happens. It ships with
 78 offline tests you can run before trusting any of it.
 
-Two of its files are [published in full before you pay](https://kit.sdvsignal.com/samples/skills-hooks),
+Two of its files are [published in full before you pay](https://kit.sdvsignal.com/samples/skills-hooks?utm_source=github&utm_medium=readme&utm_campaign=skills-hooks&utm_content=kit-claude-code-starter),
 along with the complete file list and a replay of the hooks refusing real mistakes. Read those two
 and if they are not worth $29 to you, the other 23 will not be either.
 
 | | Setup Lite | Setup Sprint | MCP Basic | Build Packet |
 |---|---|---|---|---|
-| Price | **$29** | **$99** | **$199** | **$399** |
+| Price | **[$29](https://buy.stripe.com/3cI14pcsf6DA8Xw4B3f3a0a?client_reference_id=from-gh-starter-table)** | **[$99](https://buy.stripe.com/4gM4gBeAn7HE2z80kNf3a01?client_reference_id=from-gh-starter-table)** | **[$199](https://buy.stripe.com/14A4gB9g38LIc9IebDf3a07?client_reference_id=from-gh-starter-table)** | **[$399](https://buy.stripe.com/9B600lcsfaTQb5EebDf3a02?client_reference_id=from-gh-starter-table)** |
 | What | A CLAUDE.md, a tool allowlist and one skill, set up for your repo | CLAUDE.md + skills + allowlist + hooks + up to 3 MCP servers + runbook, tuned to your repo | One MCP tool + schema + smoke prompt + enable/disable notes | One custom MCP server (≤5 tools) **or** one Cloudflare Worker (≤3 routes) with tests + README |
 | Turnaround | 24 hours, as a PR you review | 48 hours | a few days | 5 business days |
+
+Every price in that row is a live checkout. Nothing there is a subscription and nothing expires.
 
 Shipping an iOS app too? **Preview Pack $149** is one App Store preview video built to Apple's spec from your
 screen recordings, plus 5 stills and 2 revision rounds, in 72 hours. Same page.
