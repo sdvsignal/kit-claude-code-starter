@@ -71,6 +71,22 @@ What you are buying, if you ever buy, is the 15 minutes plus the judgement calls
 belong in the allowlist, what goes in the "never do" list, which of your services deserve an MCP
 server. That is a **Kit Setup Sprint**, and it comes back as a PR you review.
 
+### Want more of the same thing, today, with nobody involved?
+
+This starter is **3 skills and one formatting hook**. If what you actually want is *more files of
+this kind* rather than a service with a turnaround, that is the
+**[Skills & Hooks Pack — $29](https://buy.stripe.com/28E28tbob7HE8Xw4B3f3a0b?client_reference_id=from-gh-starter)** — 10 skills and 8 hooks, drop-in
+`.claude/`, instant download, no intake and no clock.
+
+Six of those eight hooks **block** rather than warn: a write containing a live credential, a commit
+straight onto `main`, `rm -rf` at a root or a bare wildcard, `git clean -fd`, reading a `.env` into
+the transcript, and the flags that make a test run report success whatever happens. It ships with
+78 offline tests you can run before trusting any of it.
+
+Two of its files are [published in full before you pay](https://kit.sdvsignal.com/samples/skills-hooks),
+along with the complete file list and a replay of the hooks refusing real mistakes. Read those two
+and if they are not worth $29 to you, the other 23 will not be either.
+
 | | Setup Lite | Setup Sprint | MCP Basic | Build Packet |
 |---|---|---|---|---|
 | Price | **$29** | **$99** | **$199** | **$399** |
