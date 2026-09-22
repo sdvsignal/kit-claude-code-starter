@@ -85,10 +85,16 @@ screen recordings, plus 5 stills and 2 revision rounds, in 72 hours. Same page.
 We use AI tools including Claude; a person reviews every deliverable before it ships.
 Independent project, not affiliated with Anthropic.
 
+## Questions
+
+Stuck on the `CLAUDE.md` step, or not sure what belongs in the allowlist? Ask in
+[Discussions](https://github.com/sdvsignal/kit-claude-code-starter/discussions/1). Real answers, no signup.
+
 ## Related
 
 - [kit-plugins](https://github.com/sdvsignal/kit-plugins) — the same skills as installable Claude Code plugins
-- [kit-one-tool-mcp](https://github.com/sdvsignal/kit-one-tool-mcp) — a working one-tool MCP server sample
+- [kit-one-tool-mcp](https://github.com/sdvsignal/kit-one-tool-mcp) — a working one-tool MCP server sample, 15 tests, no API key
+- [kit-ios-worker-template](https://github.com/sdvsignal/kit-ios-worker-template) — StoreKit 2 verification on a Cloudflare Worker, with failure logging
 
 ## License
 
