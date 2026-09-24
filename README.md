@@ -1,6 +1,6 @@
 # kit-claude-code-starter
 
-![license MIT](https://img.shields.io/badge/license-MIT-3da639) ![dependencies none](https://img.shields.io/badge/dependencies-none-3da639) [![download v1.0.0 zip](https://img.shields.io/badge/download-v1.0.0%20zip-1f5f4a)](https://github.com/sdvsignal/kit-claude-code-starter/releases/latest) [![more skills and hooks $29](https://img.shields.io/badge/more%20skills%20and%20hooks-$29-1f5f4a)](https://buy.stripe.com/28E28tbob7HE8Xw4B3f3a0b?client_reference_id=from-gh-badge-starter)
+[![skills.sh](https://skills.sh/b/sdvsignal/kit-claude-code-starter)](https://skills.sh/sdvsignal/kit-claude-code-starter) ![license MIT](https://img.shields.io/badge/license-MIT-3da639) ![dependencies none](https://img.shields.io/badge/dependencies-none-3da639) [![download v1.0.0 zip](https://img.shields.io/badge/download-v1.0.0%20zip-1f5f4a)](https://github.com/sdvsignal/kit-claude-code-starter/releases/latest) [![more skills and hooks $29](https://img.shields.io/badge/more%20skills%20and%20hooks-$29-1f5f4a)](https://buy.stripe.com/28E28tbob7HE8Xw4B3f3a0b?client_reference_id=from-gh-badge-starter)
 
 **Claude Code works out of the box, then spends your first week asking permission for `npm test` and
 forgetting how your repo builds.** This fixes both. Four plain-text files you copy into any repo:
