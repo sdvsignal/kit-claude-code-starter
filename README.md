@@ -1,6 +1,6 @@
 # kit-claude-code-starter
 
-[![skills.sh](https://skills.sh/b/sdvsignal/kit-claude-code-starter)](https://skills.sh/sdvsignal/kit-claude-code-starter) ![license MIT](https://img.shields.io/badge/license-MIT-3da639) ![dependencies none](https://img.shields.io/badge/dependencies-none-3da639) [![download v1.0.0 zip](https://img.shields.io/badge/download-v1.0.0%20zip-1f5f4a)](https://github.com/sdvsignal/kit-claude-code-starter/releases/latest) [![more skills and hooks $29](https://img.shields.io/badge/more%20skills%20and%20hooks-$29-1f5f4a)](https://buy.stripe.com/28E28tbob7HE8Xw4B3f3a0b?client_reference_id=from-gh-badge-starter)
+[![skills.sh](https://skills.sh/b/sdvsignal/kit-claude-code-starter)](https://skills.sh/sdvsignal/kit-claude-code-starter) ![license MIT](https://img.shields.io/badge/license-MIT-3da639) ![dependencies none](https://img.shields.io/badge/dependencies-none-3da639) [![download v1.0.0 zip](https://img.shields.io/badge/download-v1.0.0%20zip-1f5f4a)](https://github.com/sdvsignal/kit-claude-code-starter/releases/latest) [![more skills and hooks $29](https://img.shields.io/badge/more%20skills%20and%20hooks-$29-1f5f4a)](https://buy.stripe.com/28E28tbob7HE8Xw4B3f3a0b?client_reference_id=from-gh-badge-starter) [![Kit ladder audit $79](https://img.shields.io/badge/Kit%20ladder%20audit-%2479-1f5f4a)](https://buy.stripe.com/8x28wR1NB6DA7Ts7Nff3a09)
 
 **Claude Code works out of the box, then spends your first week asking permission for `npm test` and
 forgetting how your repo builds.** This fixes both. Four plain-text files you copy into any repo:
@@ -16,6 +16,9 @@ allowlist or an `mcp.json` example — that is what is in here. Copy what fits, 
 **[Buy Setup Lite — $29](https://buy.stripe.com/3cI14pcsf6DA8Xw4B3f3a0a?client_reference_id=from-gh-starter)** · one repo, CLAUDE.md + allowlist + one skill, back as a PR in ~24h.
 
 Details: [kit.sdvsignal.com/#setup-lite](https://kit.sdvsignal.com/?utm_source=github&utm_medium=readme&utm_campaign=setup-lite&utm_content=kit-claude-code-starter#setup-lite)
+
+
+Already have a CLAUDE.md and settings that disagree? That is a different purchase from Setup Lite. The $79 Kit ladder reads what you have and returns the contradictions: [Buy Surface Audit $79](https://buy.stripe.com/8x28wR1NB6DA7Ts7Nff3a09). Sample first: [kit.sdvsignal.com/samples/cc-surface-audit](https://kit.sdvsignal.com/samples/cc-surface-audit).
 
 ## 60-second start
 
